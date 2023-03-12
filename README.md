@@ -19,7 +19,7 @@ Here we tried plotting routes on the US map for different delay causes. In compa
 routes, lines drawn with a stronger hue(shade) depict routes with larger percentages of delays.
 
 **Weather Delays**
-![image](https://user-images.githubusercontent.com/125203016/224555546-f6d951e9-755e-4cf8-ba37-1470963d3ca2.png)
+![image](https://user-images.githubusercontent.com/125203016/224555580-c65e4e4f-82b2-47bd-a03f-27f60e3ed791.png)
 
 Weather delays as we can see are limited to certain routes with atypical or extreme weather conditions.
 According to the Federal Aviation Administration, most of the delays in winter are due to surface winds, low
@@ -28,7 +28,26 @@ low ceiling and associated low visibility (Federal Aviation Administration, 2017
 precipitation, wind speed, temperature and visibility as a proxy for these conditions.
 
 **NAS Delays**
-![image](https://user-images.githubusercontent.com/125203016/224555485-cf20c944-6649-463f-8072-3c81ee145748.png)
+![image](https://user-images.githubusercontent.com/125203016/224555599-a49d1544-f36f-44b4-a98b-3f0280b44c0c.png)
+
 Delays and cancellations attributable to the national aviation system refer to a broad set of conditions(shown
 above). Since the majority component(about 45%) of NAS delays attribute to non-extreme weather conditions,
 resulting in similar delay routes and hotspots as compared to the weather delay graph.
+
+**Airline and Aircraft Delays**
+
+![image](https://user-images.githubusercontent.com/125203016/224555633-1c73935c-f65c-480b-8aa1-35999513f735.png)
+
+Airline delay is more distributed across the country and is not dependent on geographical location. Upon
+analysis we found aircraft age and model to be important features that could affect the performance of a certain
+aircraft belonging to an airline.
+
+**Additional Delay Causes**
+![image](https://user-images.githubusercontent.com/125203016/224555667-6a204dcb-0e42-4a7b-ab06-2e6e6a9c1640.png)
+![image](https://user-images.githubusercontent.com/125203016/224555675-92c4c6e1-91fc-41f8-bf09-6c59de1f99b4.png)
+
+We discovered that time-based features can also be crucial elements in forecasting flight delays after further
+investigation. On weekends and holidays, people prefer to travel more, causing traffic congestion and airport
+operations challenges, resulting in delays. We also discovered that the busiest airports had a greater likelihood
+of flight delays. Most of the airports that cause delays include JFK, Chicago, ATL, Miami, DNV, Austin, LA, and
+SF.
