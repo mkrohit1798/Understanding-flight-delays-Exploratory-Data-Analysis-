@@ -17,3 +17,18 @@ will help us in picking the kind of prediction model that will be appropriate fo
 **Data Analysis**
 Here we tried plotting routes on the US map for different delay causes. In comparison to the lighter coloured
 routes, lines drawn with a stronger hue(shade) depict routes with larger percentages of delays.
+
+**Weather Delays**
+![image](https://user-images.githubusercontent.com/125203016/224555546-f6d951e9-755e-4cf8-ba37-1470963d3ca2.png)
+
+Weather delays as we can see are limited to certain routes with atypical or extreme weather conditions.
+According to the Federal Aviation Administration, most of the delays in winter are due to surface winds, low
+ceiling and low visibility, whereas during summer the majority of delays is attributable to convective weather,
+low ceiling and associated low visibility (Federal Aviation Administration, 2017). In our analysis, we used
+precipitation, wind speed, temperature and visibility as a proxy for these conditions.
+
+**NAS Delays**
+![image](https://user-images.githubusercontent.com/125203016/224555485-cf20c944-6649-463f-8072-3c81ee145748.png)
+Delays and cancellations attributable to the national aviation system refer to a broad set of conditions(shown
+above). Since the majority component(about 45%) of NAS delays attribute to non-extreme weather conditions,
+resulting in similar delay routes and hotspots as compared to the weather delay graph.
